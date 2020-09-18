@@ -33,10 +33,10 @@ Otherwise, please follow these steps to manually deploy Heroku-Grafana.
 1. Install the [Heroku Toolbelt](https://toolbelt.heroku.com/)
 2. Fork and clone this repo
 3. Create the app, e.g. `heroku create`
-4. Set the buildpack to the [Null buildpack](https://github.com/ryandotsmith/null-buildpack):
+4. Set the buildpack to the [Null buildpack](https://github.com/ericmend/null-buildpack):
 
 ```sh
-heroku buildpacks:add http://github.com/ryandotsmith/null-buildpack.git
+heroku buildpacks:add http://github.com/ericmend/null-buildpack.git
 ```
 
 #### Database Setup
