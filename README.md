@@ -7,7 +7,7 @@ Following link has information for Mac, Windows, and Linux
 
 https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
 
-#### Thanks to @eliperelman for the scripts to setup the postgres database
+#### based on https://github.com/scottrpoulin/heroku-grafana-6.3.5
 
 Run Grafana on Heroku
 
