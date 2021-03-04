@@ -1,0 +1,39 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "fifemon",
+  "signedByOrgName": "FIFEmon",
+  "plugin": "fifemon-graphql-datasource",
+  "version": "1.2.0",
+  "time": 1611252583427,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "plugin.json": "efa0309afd851d718d603678c9502d715c643019f4e8e3150f3af033f79feab6",
+    "module.js": "b2998a3c12b4534bfa5b8a1d6e343b8946f601521d824f30bd8112c6c18494cd",
+    "CHANGELOG.md": "fa8efe976a47e255a79acc5cf38d03aa3f4243083ff991345f04e7c73f2de1ab",
+    "index.html": "2fa2c4168c5bb7b8502989f437e4a1a71e663702b0ec9c01530215c8c026dcaf",
+    "partials/annotations.editor.html": "1eaff7872c5cad6a2ba25bc12b13fcd092f8a28b2a7f120a97b1ccd7166cde1c",
+    "img/logo.svg": "3f359408b247bdd53517f653fbad65ee067d9cdb338ec5d438bd98f081f81b59",
+    "img/db_arrivals.png": "e8b7aba490ac43bc801b9739cca8408bb9c247aca102a02ec612c396c73b4b31",
+    "img/README": "15d4389999e277a1749d107ed84e099e38089b88d74c6ab33ed6771087d162f4",
+    "img/github_security_advisories.png": "b11ce1951842ff426f6a3f4adc79f14ce66d1e73da761911a1cefc74dbf8c0cd",
+    "img/db_arrivals_annotations.png": "99a3e09181a74140f61be7cdb6bbd86d92657e66a21961b3c8cb9d6c5fef1986",
+    "README.md": "12ab68f7dc8c5ba0055a2cb9162aa83449e90e621fa2ae2ada31d6afa487ded9",
+    "LICENSE": "8296125b6632f7fcaa2c69d2837a7bb188c2767ae23461db27b8a7f6756cdf55",
+    "module.js.map": "ee5dc09c227e890e353e5061b526f2e6301b5bdefe56932b5795280bf7b426a4"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqEEARMKAAYFAmAJw2cACgkQfk0ManCIZucDHQIJAeIs+wiayFx3kAkuY0z5
+9g3wgQEQm4I93m4aU23XqQKdepKCLSzeIuH+BbDTJcGJ+NHz1dXf5SEA91IC
+/Cif/H8SAgiQYnHf/y/y90yAZmV5Lv3KTLbvrArCeTXwk/FbKji5inFHmV30
+nD1aytllcn4fDG4cxBGfHP3lKmz0iBtjJe68JQ==
+=uUC9
+-----END PGP SIGNATURE-----

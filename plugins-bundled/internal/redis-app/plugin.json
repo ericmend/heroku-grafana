@@ -1,0 +1,110 @@
+{
+  "dependencies": {
+    "grafanaDependency": ">=7.1.0",
+    "grafanaVersion": "7.x.x",
+    "plugins": [
+      {
+        "id": "redis-datasource",
+        "name": "Redis Data Source",
+        "type": "datasource",
+        "version": "^1.3.1"
+      }
+    ]
+  },
+  "id": "redis-app",
+  "includes": [
+    {
+      "addToNav": true,
+      "defaultNav": true,
+      "name": "Home",
+      "path": "/a/redis-app/",
+      "role": "Admin",
+      "type": "page"
+    },
+    {
+      "addToNav": true,
+      "name": "Redis CLI",
+      "path": "dashboards/redis-cli.json",
+      "role": "Admin",
+      "type": "dashboard"
+    },
+    {
+      "addToNav": true,
+      "name": "Redis Overview",
+      "path": "dashboards/redis-overview.json",
+      "role": "Admin",
+      "type": "dashboard"
+    },
+    {
+      "addToNav": true,
+      "name": "RedisGears",
+      "path": "dashboards/redis-gears.json",
+      "role": "Admin",
+      "type": "dashboard"
+    },
+    {
+      "name": "Redis CLI Panel",
+      "type": "panel"
+    },
+    {
+      "name": "Redis Latency Panel",
+      "type": "panel"
+    },
+    {
+      "name": "RedisGears Panel",
+      "type": "panel"
+    }
+  ],
+  "info": {
+    "author": {
+      "name": "Redis Labs",
+      "url": "https://oss.redislabs.com"
+    },
+    "description": "Redis Application",
+    "keywords": ["redis", "timeseries", "plugin"],
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/RedisGrafana/grafana-redis-app"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/RedisGrafana/grafana-redis-app/blob/master/LICENSE"
+      }
+    ],
+    "logos": {
+      "large": "img/logo.svg",
+      "small": "img/logo.svg"
+    },
+    "screenshots": [
+      {
+        "name": "Redis Application",
+        "path": "img/redis-app.png"
+      },
+      {
+        "name": "Redis CLI Dashboard",
+        "path": "img/redis-cli-dashboard.png"
+      },
+      {
+        "name": "RedisGears Dashboard",
+        "path": "img/redis-gears-dashboard.png"
+      },
+      {
+        "name": "Redis CLI Panel",
+        "path": "img/redis-cli-panel.png"
+      },
+      {
+        "name": "Redis Latency Panel",
+        "path": "img/redis-latency-panel-graph.png"
+      },
+      {
+        "name": "Max Memory Keys Panel",
+        "path": "img/redis-keys-panel.png"
+      }
+    ],
+    "updated": "2021-02-08",
+    "version": "1.1.0"
+  },
+  "name": "Redis Application",
+  "type": "app"
+}

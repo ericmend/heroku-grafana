@@ -1,0 +1,64 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "community",
+  "signedByOrg": "redis",
+  "signedByOrgName": "Redis Labs",
+  "plugin": "redis-app",
+  "version": "1.1.0",
+  "time": 1612771973181,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "LICENSE": "d3cb3efc31b6781bc807cb4a6fd2042131fa3bdd7f96580c6df8fcbe1ff800d5",
+    "module.js": "f912781a5bd054743ed788f69561a3aa24ac0e51b22669524970bc14aa4f96bd",
+    "dashboards/redis-gears.json": "00894304be56aa66afc677909cf5b23a666564aad0e2a5126ebaa921afce303b",
+    "dashboards/redis-cli.json": "d8972866c10667a23e7800fdac075e08f216b851c55f4acfb5edb54c007e343d",
+    "dashboards/redis-overview.json": "c1151f214966b97faf26f8e65a64994aed04649d20026b6caca0c510cddd5454",
+    "module.js.map": "752bd02e0887a26f28f150e97b1b820be643f11e34ebbd949ef4ded300d81015",
+    "plugin.json": "2290a8958bbf797b7ae43d6e0a97e855ad4c0a326fb25bd1e4961bca31538400",
+    "CHANGELOG.md": "9df43a1ce9abb05b4ba07ed04f50aa1e7e8f229a06a89c0f465ead8f9ccba51f",
+    "img/redis-app.png": "116e900f9481dd426df12ee54a7181219a3211544fd4130e1564105cdbaad084",
+    "img/redis-keys-panel.png": "0ab738f227786078b286cdeb45fbca82a4534503811909a9ce439347f7539e19",
+    "img/redis-latency-panel-graph.png": "f43896dd95073fa01e87c51f5543e2efcde25e28be38aed3a62fdfcf230c3c82",
+    "img/logo.svg": "9947219c672aad8b04fcf2c512b469e5be60bdf39ac0a6fc4660785516216118",
+    "img/redis-gears-dashboard.png": "ed973bd7d6ea089a76f91249be227816fe9b90b6a62e829d0dc5054a34571a97",
+    "img/redis-cli-dashboard.png": "40d10aeceb47b9b9e5ed5143e15c061e236922dbd869eba180740ac0ee47af08",
+    "img/redis-latency-panel-table.png": "a62dcb89f18946c4ad931739c7d5c6f84a8e505991293a91242851ae28ed9027",
+    "img/redis-cli-panel.png": "b6dcb8c5d9b1701d4a2b130814a9bb365ccf7f01a7757b202fcbfab1510f1a53",
+    "README.md": "69029a29ae0fae73ef3a8011961978282663b212b5772393624e8a6d19319d97",
+    "redis-latency-panel/module.js": "9c8e8965455abc38ff9f38db9840891622cdcdf31d12214149d55e8619a0e7a8",
+    "redis-latency-panel/module.js.map": "dd9145af1d56e9953500d1b2ed60c5b13d1ab9cb85e8ea3e433a3c8641734a23",
+    "redis-latency-panel/plugin.json": "4ae48fa306a96ab4e500b0db37e22099b3c2b6e5cfebe4cf8ffc8b780a709a21",
+    "redis-latency-panel/img/logo.svg": "be3bc261e77b52c7123175a7b3b39d8dc85dab6d80a63615468caf7b1865130f",
+    "redis-latency-panel/module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
+    "redis-cli-panel/module.js": "ab728404f3f471efa63580da8f3a867a7c126a2ecbc7d825273fa8695e7104d0",
+    "redis-cli-panel/module.js.map": "8a77207007253cc9fc2f8c18e8cbfd1298685b932d21c5560563605e79068a5d",
+    "redis-cli-panel/plugin.json": "1e1f242a457c04f4543d4ee9142af075cea4d9b19da8f73d23221e988179114a",
+    "redis-cli-panel/img/logo.svg": "8166f5e2ce6d15fb54d6398aa6fa788fc6a285adcd552909a20e05d4a6fb8373",
+    "redis-cli-panel/module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
+    "redis-gears-panel/module.js": "aa746354ff468240a9ab0383702c9ae8e06d50bb1aefa8e2aad6fd15f7ffa9f5",
+    "redis-gears-panel/module.js.map": "1a278d5822e2c8b5d709796355fda97e3dd303956e552c4004858d967ad8146d",
+    "redis-gears-panel/plugin.json": "75fdab56e71442ceb33335d5e2791d37503af0527fcf4dfcafd39e7f1e0eaaa0",
+    "redis-gears-panel/img/logo.svg": "04b21acedda7fcdce103608c2dd2d5ab98674e8311b60b44cb1184fbc592d09c",
+    "redis-gears-panel/module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
+    "module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
+    "redis-keys-panel/module.js": "971c4ba5816ed9a6639444fe9a972ce1be4b59f29f581249a8b087379af9da15",
+    "redis-keys-panel/module.js.map": "f052c1bc0eb5ce4e1ecf54f2add4e9511a60649cb8cdeaabe3a7bbfe9096bfea",
+    "redis-keys-panel/plugin.json": "a67eeeacd7dbb7fed7895c1e82bccadbbd44d2fe2b1faaf128488d0847577715",
+    "redis-keys-panel/img/logo.svg": "620fe8490b40531f9c529490a2adfa71f546d98e08ddd05f75db3b52d2387799",
+    "redis-keys-panel/module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqEEARMKAAYFAmAg8oUACgkQfk0ManCIZucXOAIGNMzs6bQ25Pq3LnMiIm6W
+bgH4kZgeUjgY8OSn1PewFw8ZfLPA+LVNHzF+vucpguNIjAJZupma5d+NGrww
+B6U5ZwoCCQGLWTdpPQ3kv0TXKVzJJif9Ih4Ig0To4hODply1ddUIU1ZoUsaV
+zE08F4WLHhNbEIeTsg+P1IYNxOoM2IVi+OVujA==
+=6MG/
+-----END PGP SIGNATURE-----
